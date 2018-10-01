@@ -29,7 +29,7 @@ function selectMoreItems() {
         .then(function (answer) {
             if (answer.continue) {
                 showAllFormattedItems();
-                console.log("He said Yes");
+               
 
             } else {
 
